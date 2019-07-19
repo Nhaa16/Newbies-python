@@ -1,0 +1,403 @@
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+#big_wapper
+{
+	border:1px solid black;
+	width:1000px;
+	margin:10px auto;
+	text-align:left;
+}
+
+header h4
+{
+	text-align:right;
+	padding:10px;
+	margin:0px;
+	background-color:#222020;
+	color:white;
+	font-family:Harlow Solid Italic;
+	font-size: 20px;
+}
+header h1
+{
+    float: left;
+    font-family: Goudy Stout;
+    font-size: 30px;
+    color: black;
+    margin: 0px;
+	padding:10px;
+}
+header h1 span
+{
+    color: deeppink;
+    font-weight:lighter;
+}
+
+nav ul li
+{
+    display: inline;
+    padding: 5px;
+    margin-left:3%;
+    border-radius: 10px;
+    float: left;
+}
+nav ul li:hover
+{
+    background-color: darkslategrey;
+}
+nav a
+{
+    text-decoration: none;
+    font-family: Gabriola;
+    font-size: 25px;
+    color: black;
+}
+
+header img
+{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 3px;
+}
+
+nav input[type="text"], input[name="Search"]
+{
+    font-family: Consolas;
+    font-size: 20px;
+    border: black;
+    padding: 10px;
+    height: 25px;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 10px;
+    color: black;
+	border: 1px solid black;
+}
+#b1
+{
+	border:none;
+    font-family: Consolas;
+    font-size: 15px;
+    border-radius: 5%;
+    height: 50px;
+    background-color: hotpink;
+}
+#b1:hover
+{
+    background-color: darkslategrey;
+}
+
+#image
+{
+	height:480px;
+	width:96%;
+	background-image: url("../pics/33.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:white;
+	padding:20px;
+}
+#image p 
+{
+	
+	font-family:Harlow Solid Italic;
+	font-size:30px;
+	padding:0%;
+	margin:7%;
+}
+
+#b2
+{
+    border: none;
+    font-family: Adobe Garamond pro;
+    font-size: 25px;
+    border-radius: 5%;
+    height: 30px;
+    background-color: pink;
+	padding:30px;
+	text-align:center;
+	margin: 0px;
+}
+
+#b2:hover
+{
+	background-color:#B9ADAE;
+}
+
+#p
+{
+	font-family: Gabriola;
+	font-size: 25px;
+	padding: 1px;
+}
+h4
+{
+	text-align:left;
+	padding:10px;
+	margin:0px;
+	background-color:#222020;
+	color:white;
+	font-family:Harlow Solid Italic;
+	font-size: 25px;	
+}
+#the_footer
+{
+	clear: both;
+	text-align: center;
+	padding:20px;
+	margin:5px;
+	border-top:2px solid black;
+	background-color:hotpink;
+	font-family:Goudy stout;
+}
+
+h3
+{
+	text-align:center;
+	padding:5px;
+	margin:0px;
+	background-color:hotpink;
+	color:#1B1A1A;
+	font-family:Harlow Solid Italic;
+	font-size: 25px;
+}
+
+#footer
+{
+	clear: both;
+	text-align: center;
+	padding:20px;
+	margin:5px;
+	border-top:2px solid black;
+	background-color:hotpink;
+}
+.b
+{
+	text-align:center;
+	font-family:Harlow Solid Italic;
+	font-size:30px;
+	color:#191717;
+}
+
+table td
+{
+	clear:both;
+	text-align:center;
+	font-family:calibri;
+	font-size:22px;
+	padding: 3px;
+	margin-right:50px;
+}
+p
+{
+	text-align: center;
+	padding:5px;
+	margin:5px;
+	font-family:Goudy stout;
+}
+
+.d1
+{
+    background-image: url("../pics/36.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+#contact
+{
+	background-image: url("../pics/0.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:450px;
+	width:100%;
+	text-align: center;
+	font-size: 25px;
+	font-family:Gabriola;
+	color:white;
+	padding-top: 200px;
+	
+}
+.d2
+{
+	height:550px;
+	width:96%;
+	background-image: url("../pics/31.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	text-align:center;
+	color:#CF0F7A;
+	padding:20px;
+}
+.signup
+{
+    float: center;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color:rgba 0,0,0,0.5;
+    width: 30%;
+    height: 550px;
+    padding: 5px;
+    margin: 1% 0px 0px 40%;
+}
+.signup h1
+{
+    padding-left: 25%;
+    font-family: forte;
+    font-size: 25px;
+}
+.signup form
+{
+    padding: 5px 0px 20px 0px;
+}
+.signup label
+{
+    font-family: Gabriola;
+    font-size: 20px;
+	text-color:black;
+}
+.signup input
+{
+    width: 100%;
+}
+.signup input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.signup input[type="password"], input[name="Password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.signup input[type="password"], input[name="Repeat Password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 15px;
+}
+.signup label[name="dof"]
+{
+    padding-left: 30%;
+    display: inline;
+}
+.signup select
+{
+    border: none;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+.signup a
+{
+    text-decoration: underline;
+    font-size: 18px;
+    color: black;
+    padding-left: 20%;
+}
+.signup button
+{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+    border: none;
+}
+.signup button[name="b1"]
+{
+    background-color: darkgrey;
+}
+.signup button[name="b1"]:hover
+{
+    background-color: white;
+}
+.signup button[name="b2"]
+{
+    background-color: white;
+}
+.signup button[name="b2"]:hover
+{
+    background-color: darkgray;
+}
+
+
+th
+{
+	text-align: left;
+	padding:5px;
+	margin:20px;
+	font-family:Calibri;
+	font-size:25px;
+	color:chocolate;
+	
+}
+#table1
+{
+	clear:both;
+	text-align:left;
+	font-family:forte;
+	font-size:22px;
+	padding: 3px;
+	margin-right:50px;
+}
+#td1
+{
+	text-align: left;
+	padding:0px;
+	margin:10px;
+	font-family:Gabriola;
+}
+
+#td2
+
+{
+	text-align: left;
+	padding:0px;
+	margin:10px;
+	font-family:Gabriola;
+}
+
+#author
+{
+	text-align: left;
+	padding:0px;
+	margin:10px;
+	font-family:Gabriola;
+}
+
+#info
+{
+	text-align: left;
+	font-family:Gabriola;
+	font-size: 20px;
+	
+}
+#image3
+{
+	align:center;
+	padding-left: 100px;
+	
+}
